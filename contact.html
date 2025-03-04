@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #904ae7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contact {
+            background: #b184d3;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .contact h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contact .info {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 10px;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .contact .info:last-child {
+            border-bottom: none;
+        }
+
+        .contact .info i {
+            font-size: 20px;
+            color: #007bff;
+        }
+
+        .contact .info a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .contact .info a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact">
+        <h1>Contact Me</h1>
+        
+        <div class="info">
+            <i class="fas fa-envelope"></i>
+            <a href="https://mail.google.com/mail/?view=cm&to=estherojul53@gmail.com" target="_blank">
+                estherojul53@gmail.com
+            </a>
+        </div>
+        
+        <div class="info">
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://wa.me/+254799091398" target="_blank">WhatsApp</a>
+        </div>
+        
+        <div class="info">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+254799091398">+254799091398</a>
+        </div>
+        
+        <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <a href="#">Nairobi, Kenya</a>
+        </div>
+    </div>
+</body>
+</html>
